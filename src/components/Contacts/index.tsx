@@ -49,8 +49,7 @@ export const Contacts = () => {
                   My Whatsapp
                 </Text>
                 <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's about creativity
-                  together?
+                  I'm available for a voice chat, let's about creativity together?
                 </Text>
                 <Text
                   as="a"
@@ -82,9 +81,7 @@ export const Contacts = () => {
                   type="body2"
                   target="_blank"
                   href={`mailto=${userData.emailUser}`}
-                  onClick={() =>
-                    (window.location.href = "mailto:nekelpatrick.com")
-                  }
+                  onClick={() => (window.location.href = "mailto:rafaelnt83@gmail.com")}
                 >
                   Send me an email
                 </Text>
@@ -99,8 +96,7 @@ export const Contacts = () => {
                   My LinkedIn
                 </Text>
                 <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
-                  network
+                  We can create more constant interactions as well as a sharing network
                 </Text>
                 <Text
                   as="a"
